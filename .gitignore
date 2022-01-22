@@ -130,3 +130,6 @@ dmypy.json
 
 # General for vagrant
 .vagrant/
+
+#Ignore .DS_Store
+.DS_Store
