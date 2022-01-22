@@ -1,5 +1,19 @@
-### Learnings
 
+All you need to do is clone this repo, navigate into the folder and call 'vagrant up'. The website would be available at http://127.0.0.1:8080/
+***Of course you need to have Hashicorp vagrant & virtualbox installed on your device.
+
+<details><summary>Details of Code</summary>
+<p>
+Porvider : VirtualBox
+Image used = hashicorp/bionic64
+Port 8080 on host is used to connect to port 80 of the virtualbox guest vm
+Installs apache2 on the VM and copies the application into the VM 
+</p>
+</details>
+
+
+<details><summary>Learnings</summary>
+<p>
 What is Vagrant and how to setup Vagrantfile
 https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started
 
@@ -24,3 +38,5 @@ apache available site configs and enabled sites
 when there are two sites at the same tree for the same domain name the default one needs to be disabled.
 
 apache2 details - https://httpd.apache.org/docs/2.4/
+</p>
+</details>
